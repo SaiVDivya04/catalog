@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="remoteBrowserType" value="Firefox"/>
+  <test name="regression(failed)">
+    <classes>
+      <class name="com.catalog.tests.Logoff">
+        <methods>
+          <include name="after"/>
+          <include name="testLogin01"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.catalog.tests.Logoff -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

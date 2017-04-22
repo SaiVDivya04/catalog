@@ -1,0 +1,9 @@
+com/catalog/pages/SignInPage.class
+org/jass/selenium/AppTest.class
+com/catalog/tests/Logoff.class
+com/catalog/common/ReadPropertyFile.class
+com/catalog/pages/LogOffPage.class
+com/catalog/common/CommonMethods.class
+com/catalog/common/DataDriverXLS.class
+com/catalog/common/ScreenCapture.class
+com/catalog/pages/WelcomePage.class

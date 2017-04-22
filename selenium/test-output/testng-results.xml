@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="12534" started-at="2017-04-22T15:31:16Z" finished-at="2017-04-22T15:31:28Z">
+    <groups>
+    </groups>
+    <test name="regression" duration-ms="12534" started-at="2017-04-22T15:31:16Z" finished-at="2017-04-22T15:31:28Z">
+      <class name="com.catalog.tests.Logoff">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.catalog.tests.Logoff@3f49dace]" name="setup" is-config="true" duration-ms="1587" started-at="2017-04-22T08:31:16Z" finished-at="2017-04-22T08:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="navigate(java.lang.String)[pri:0, instance:com.catalog.tests.Logoff@3f49dace]" name="navigate" is-config="true" duration-ms="624" started-at="2017-04-22T08:31:17Z" finished-at="2017-04-22T08:31:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="testLogin01()[pri:0, instance:com.catalog.tests.Logoff@3f49dace]" name="testLogin01" duration-ms="10242" started-at="2017-04-22T08:31:18Z" finished-at="2017-04-22T08:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin01 -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:com.catalog.tests.Logoff@3f49dace]" name="after" is-config="true" duration-ms="72" started-at="2017-04-22T08:31:28Z" finished-at="2017-04-22T08:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin01 status=SUCCESS method=Logoff.testLogin01()[pri:0, instance:com.catalog.tests.Logoff@3f49dace] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.catalog.tests.Logoff -->
+    </test> <!-- regression -->
+  </suite> <!-- Suite1 -->
+</testng-results>
