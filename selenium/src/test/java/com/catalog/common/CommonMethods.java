@@ -52,7 +52,7 @@ public class CommonMethods {
 		if(OSName.toLowerCase().contains("windows")){
 			File IEfile = new File("C:\\Selenium\\Batch0317\\Catalog\\drivers\\IEDriverServer.exe");
 			System.setProperty("webdriver.ie.driver", IEfile.getAbsolutePath());		
-			File chromedriver = new File("C:\\Selenium\\Batch0317\\Catalog\\drivers\\chromedriver.exe");
+			File chromedriver = new File("C:\\Selenium\\drivers\\chromedriver.exe");
 			System.setProperty("webdriver.chrome.driver", chromedriver.getAbsolutePath());
 			
 			logger.info("Browser = " + browser);
